@@ -42,10 +42,5 @@ This Python script converts images to binary format. It uses Python's image proc
 - Python 3.x
 - Pillow (Python Imaging Library)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
-Feel free to adjust the instructions or add more details as needed for your project.
