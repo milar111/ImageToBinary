@@ -10,9 +10,9 @@ def image_to_byte_array(image_path, x, y):
     temp = len(str(x) + ' ' + str(y)) + 4
     return byte_im[temp::]
 
-image_path = "path\\to\\image" #when placing the path to your image use '\\' instead of '\'
-x = 32  # Specify the width of the image that will be displayed (not the display resolution)
-y = 32  # Specify the height of the image that will be displayed (not the display resolution)
+image_path = "path\\to\\image"
+x = 32
+y = 32
 
 byte_array = image_to_byte_array(image_path, x, y)
 print(byte_array)
